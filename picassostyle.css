@@ -1,0 +1,97 @@
+body {
+    margin: 0 auto;
+    height: calc(100vh - 2px);
+    position: relative;
+    width: calc(100vw - 5px);
+    justify-content: center;
+}
+section {
+    position: relative;
+    border: 1px solid black;
+    height: 650px;
+    background-color: rgba(106, 214, 200, 0.527);
+    z-index: 1;
+}
+.floor {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    z-index: 3;
+}
+
+.background {
+    position: absolute;
+    height: 250px;
+    bottom: 50px;
+    right: 0px;
+    z-index: 3;
+}
+.background1 {
+    position: absolute;
+    height: 300px;
+    bottom: 0px;
+    left: 0;
+    z-index: 3;
+}
+
+.painting {
+    border: 20px solid rgb(131, 104, 86);
+    margin: 0 auto;
+    width: 275px;
+    position: static;
+}
+
+.box {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.white {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+}
+.red {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+}
+.brown {
+    height: 25px;
+    width: 25px;
+    background-color: burlywood;
+}
+
+.black {
+    height: 25px;
+    width: 25px;
+    background-color:black;
+}
+
+.yellow {
+    height: 25px;
+    width: 25px;
+    background-color:yellow;
+}
+
+.green {
+    height: 25px;
+    width: 25px;
+    background-color:green;
+}
+
+.blue {
+    height: 25px;
+    width: 25px;
+    background-color: blue;
+}
+
+.skyblue {
+    height: 25px;
+    width: 25px;
+    background-color:skyblue;
+}
+
